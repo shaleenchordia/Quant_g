@@ -1,0 +1,50 @@
+{
+    "model_details": {
+        "type": "Multi-Model Comparison",
+        "best_model": "Lasso",
+        "OLS_R_squared_adj": 0.959142660368244,
+        "Total_Periods": 188
+    },
+    "factor_coefficients": {
+        "const": 0.0007784370795217298,
+        "Oil_Return": -0.004131334211570071,
+        "Gold_Return": 0.0687230661906183,
+        "Financial_Sector_Return": 0.31974428839150204,
+        "Tech_Sector_Return": 0.4390497123404487,
+        "VIX_Change": -0.02339313430781922,
+        "CPI_Change_Lag1": 0.2242620134900939,
+        "Fed_Rate_Lag1": -0.0003572490588459982
+    },
+    "attribution_summary": {
+        "Total_Index_Return": 2.060986549430419,
+        "Total_Explained_Return": 2.0609865494304187,
+        "Total_Residual_Return": 7.216449660063518e-16,
+        "factor_contributions_total": {
+            "Oil_Return": 0.011155351089816334,
+            "Gold_Return": 0.10143720768506385,
+            "Financial_Sector_Return": 0.6842746625093123,
+            "Tech_Sector_Return": 1.4109303466775671,
+            "VIX_Change": -0.2901487850474357,
+            "CPI_Change_Lag1": 0.08988349584714593,
+            "Fed_Rate_Lag1": -0.09289190028113646,
+            "Intercept": 0.14634617095008517,
+            "Residual": 7.216449660063518e-16
+        }
+    },
+    "model_comparison": {
+        "Best_Model": "Lasso",
+        "Best_Avg_OOS_R2": 0.9078316019314847,
+        "All_Models_Avg_OOS_R2": {
+            "Lasso_R2": 0.9078316019314847,
+            "ElasticNet_R2": 0.9076877041740813,
+            "BayesianRidge_R2": 0.8645467157385391,
+            "Huber_R2": 0.8632174611651011,
+            "Ridge_R2": 0.8626072720458191,
+            "OLS_R2": 0.8619485138659145,
+            "GradientBoosting_R2": 0.8227868910063713,
+            "RandomForest_R2": 0.809624112474326,
+            "SVR_R2": -0.07412020723685442
+        },
+        "Total_Test_Windows": 10
+    }
+}
